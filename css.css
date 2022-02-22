@@ -1,0 +1,146 @@
+body{
+  background: linear-gradient(149deg, black 10%, rgb(56, 114, 56) 42%, rgb(28, 71, 28) 72%, rgb(12, 36, 12) 100%);
+    animation: gradient 10s infinite linear; 
+    background-size: 400%; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#063317;
+    background-attachment:fixed;
+    margin:0;
+    padding:0;
+    margin-bottom: 200px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 80% 0%;
+  }
+  50% {
+      background-position: 20% 100%;
+  }
+  100% {
+      background-position: 80% 0%;
+  }
+}
+#tom{margin:40px;color:black; text-decoration: none;}
+#tom:hover{
+  text-decoration: underline;
+}
+.main{
+   background: white; 
+   margin-bottom: 100px;
+   margin:30px;
+   margin-left:auto;
+margin-right:auto;
+   
+   width: 700px;
+   border-radius:80px;
+   animation: show 1s;
+
+}
+.lul{
+  
+    
+    
+    border-radius:50% ;
+    height: 100px;
+    width: 100px;
+    transition: all 0.3s;
+  
+}
+.lul:hover{
+  transform: scale(1.2);
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    right:20px;
+    font-size: 1rem;
+  }
+.inp {
+  width: 50%;
+  height: calc(2.25rem + 2px);
+  padding: 30px;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  
+}
+
+.inp::placeholder {
+    color: #212529;
+    opacity: 0.4;
+  }
+.inp:focus, select:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 5px 0.2rem #5FA87A;
+  }
+
+.but1
+{
+   background: rgb(30, 90, 33);
+   color:white;
+   width:50.5%;
+   height:50px;
+   border-radius:5px;
+   margin-top: 50px;
+   font-size: large;
+   border:0;
+   transition: 0.3s;
+     
+}
+.but1:disabled{
+  background: rgb(120, 156, 122);
+}
+.but1:disabled:hover{
+  background: rgb(120, 156, 122);
+}
+.but1:hover{
+  background: rgb(51, 107, 54);
+}
+@keyframes show {
+
+  from {opacity: 0;} to {opacity: 1;}
+  }
+
+ select{
+   background-color: gray;
+   color:white;
+   height: 60px;
+   width: 50%;
+    border-radius: 0.25rem;
+   text-align: center;
+ }
+
+.footer{
+
+background-color:#101010;
+position: absolute;
+bottom: 0;
+
+width: 100%;
+margin:0;
+
+display:flex;
+flex-wrap: wrap;
+padding:0;
+justify-content: space-between;
+}
+.g{font-size:20px; color:white; margin: 0px 100px; margin-top:20px;}
+.logo{padding-top:40px; padding-left:20px}
+
+ 

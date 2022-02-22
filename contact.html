@@ -1,0 +1,50 @@
+<html lang="ru">
+<head>
+<title>Связь</title>
+<link rel="stylesheet" href="css.css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<meta charset="utf-8">
+</head>
+<body>
+<div class="main">
+<br>
+   <a id="tom" href="index.html" style="font-size:20px;  font-family: Verdana, Geneva, Tahoma, sans-serif; color:black;">       <b>DROZDY CLUB</b></a>
+<form id="f1" align='center' width="200" method="post" action="baseto.php">
+  <a href="index.html" >  <image class="lul" src="img/logo.jpg" ></a>
+<h1 class="text"  >Форма для связи</h1>
+<p class="label  ">Имя *</p>
+<input required type="text" class="inp" placeholder="Name Surname" name="Name">
+<p class="label  ">Email *</p>
+
+<input required type="email" class="inp email" placeholder="Something@.com" name="Email">
+<p class="label  ">Название компании *</p>
+<input required type="text " class="inp" placeholder="company" name="Company">
+<p class="label  ">Контактный телефон *</p>
+<input required type="text " class="inp" placeholder="+375(??)???????" pattern="[+]{1}[3]{1}[7]{1}[5]{1}{2}[0-9][0-9]{7}" name="PNumber">
+<p class="label  ">Услуга*</p>
+<select name="Reason" >
+    <option style = 'background-color:white; color:black;' value="Курс кибербезопасности" selected>Курс кибербезопасности</option>
+    <option style ='background-color:white; color:black;' value="Защита сайта" >Защита сайта</option>
+    <option style ='background-color:white; color:black; '  value="Защита серверов и сетей">Защита серверов и сетей</option>
+    <option style ='background-color:white; color:black; '  value="Мониторинг файловой системы">Мониторинг файловой системы</option>
+  </select>
+  <br>
+<input type="submit"  value="Отправить" id="but1" class="but1" >
+<br><br><br>
+</form>
+</div>
+<div class="footer">
+<div class="logo">
+<img src="img/logonav.png">
+</div>
+<div class="g">
+  <p>DROZDY<br>
+  CLUB</p>
+  </div>
+  <div class="g">
+  <p>DROZDY<br> 
+  CLUB</p>
+  </div>
+</div>
+</body>
+</html>
