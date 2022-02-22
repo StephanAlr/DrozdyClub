@@ -1,0 +1,452 @@
+.chat-bot-layout{
+          
+    background-color: white;
+    width: 20vw;
+    height: 55vh;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    position: fixed;
+   display:none;
+  font-family:'Times New Roman', Times, serif;
+   border:1px solid black;
+  left:1200px;
+  top:400px;
+  animation: pov 0.3s;
+  
+    
+}
+@keyframes pov {
+    from{transform: scale(0);}
+    to{transform: scale(1);}
+}
+.chat-bot-layout a{
+    font-size: 30px;
+    color:green;
+}
+.header-bot{
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    width:18.8vw;
+    margin-bottom: 5px;
+    
+    
+}
+
+.messages{
+   padding-top: 60px;
+   padding-bottom: 20px;   
+}
+.message{background-color: white;
+border-radius: 10px;
+width: 10vw;
+padding:5px;
+margin:10px;
+background-color: rgb(243, 240, 240);
+}
+
+.message-user{
+    margin-left: auto;
+
+}
+
+.message-bot span{
+color: rgb(177, 73, 73);
+}
+.message-user span{
+color: rgb(80, 177, 128);
+}
+.message-user p{
+text-align: right;
+padding-right: 10px;
+color:white;
+}
+.message-user{
+background-color: black;
+}
+
+.krug{
+width: 70px;
+min-height: 70px;
+background-color: rgb(196, 252, 238);
+background-repeat: no-repeat;
+border-radius: 10px;
+left: 95%;
+top: 85%;
+position: fixed;
+background-image: url("https://img.icons8.com/pastel-glyph/100/000000/new-message--v2.png");
+background-size: 98%;
+display: none;
+animation: showw 0.3s;
+
+}
+.attention{
+    
+    padding: 10px;
+    
+    width: 240px;
+    padding:20px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    color:white;
+    top:-20px;
+    left:-300px;
+    border: 1px solid white;
+}
+.attention::before{
+    content: "Drozdy Club";
+    position: absolute;
+    top:5px;
+    left:80px;
+    color: green;
+}
+.attention img{
+    margin-bottom: 5px;
+}
+.choose-button{
+    background-color: rgb(23, 61, 39);
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    margin: 10px 0;
+    margin-left: 15%;
+    cursor: pointer;
+    border:0;
+    width:70%;
+}
+.choose-button:nth-child(5){
+    margin:0;
+    margin-left: 15%;
+   
+}
+select{
+    padding: 10px;
+    border: 1px solid black;
+}
+option{
+    background-color: rgb(67, 97, 67);
+    color: white;
+    padding: 5px;
+}
+
+.submit{
+    width: 70%;
+    color:white;
+    background-color: black;
+    padding: 15px;
+    border:0;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+}
+.more{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.element{
+    margin-left: 20px;
+}
+.more h2{
+    margin-left: 30%;
+    font-size: 40px;
+}
+@keyframes showw{
+
+    from {left:120%} to {left:95%}
+}
+
+.services{
+    border: 0;
+    padding: 15px;
+    background-color: rgb(52, 116, 146);
+    color:white;
+    margin-top: 60px;
+   width: 200px;
+   transition: 0.3s;
+    
+text-decoration: none;
+
+}
+.services:hover{
+    background-color: rgb(43, 85, 105);
+}
+
+body {
+    margin:0; 
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-attachment: fixed;
+    background-image: linear-gradient(to right,rgb(5, 5, 5), rgb(23, 23, 66), rgb(66, 22, 59));
+    animation: show 1s;
+    min-width: 1300px;
+}
+@keyframes show {
+
+    from {opacity: 0;} to {opacity: 1;}
+    }
+
+header{
+
+padding:10px;
+background-color: rgb(0, 0, 0,0.5);
+
+margin-bottom: 40px;
+
+
+}
+.ppreim{
+    font-size: 23px;
+    width: 200px;
+    
+}
+span{color:rgb(64, 185, 64);}
+.logo{padding-top:10px;}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.page
+{
+    color: white;
+    display: inline-block;
+    padding-right: 20px;
+    font-size:1.5rem;
+}
+.page:hover{
+    color:seagreen;
+    
+    transition: all 0.1s;
+   
+}
+.contact{
+    border:2px solid green;
+    border-radius: 5px;
+   background-color: transparent;
+   color:white;
+   padding-left:20px;
+}
+.contact:hover{color:white;border-color: white;}
+
+ .pod{
+    margin:0; 
+    background-color:  black; 
+    display:flex;
+    width: 30%; 
+    margin-left: 35%; 
+   margin-top:-40px;
+     padding:5px; 
+     animation:show 0.5s;
+     position: absolute;
+     transition: opacity 0.5s;
+    }
+.pod li{color:whitesmoke; }
+.pod a {text-decoration: none;}
+.pod a:hover {text-decoration: underline;}
+
+.hidden{display:none;}
+
+.card{
+    text-align: center;
+}
+
+
+@keyframes show {
+
+    from {opacity: 0;} to {opacity: 1;}
+    
+    }
+ .pod ul{list-style-type: none;}   
+ .pp{
+     padding-bottom:10px;
+     color:black;
+}
+
+.block1{
+    margin-top: 20px;
+    padding-top: 20px;
+   background-color:white;
+   border-radius: 10px;
+   margin:auto;
+   width: 50%;
+   border: 1px solid black;
+   padding-bottom: 60px;
+   margin-bottom: 40px;
+box-shadow:0 5px 10px ;
+padding-left: 10px;
+padding-right: 10px;
+
+}
+h1{text-align: center; }
+h3{
+    text-align: center;
+}
+.about{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+
+.lol{
+    margin-left: auto;
+    margin-right: 50px;
+    width: 500px;
+    
+    margin-top: 50px;
+}
+.lol ul{
+    list-style: none;
+    
+}
+.lol li{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.how{
+      
+    background-color:rgb(22, 47, 92); 
+    color:whitesmoke;
+    border:0;
+    
+    font-size: 15px;
+    padding:15px;
+    margin-top: 10px;
+    transition: all 0.3s;
+}
+.how:hover{
+    background-color:rgb(56, 24, 82);   
+     
+    transform: scale(1.1);
+}
+.forma{
+    display: none;
+    
+}
+.about1{
+    padding-top: 20px;
+    background-color: white;
+    width: 70vw;
+    margin:auto;
+    border-radius: 10px;
+box-shadow:0 5px 10px ;
+margin-bottom: 60px;
+
+}
+
+
+.part2{
+    margin:0;
+    padding: 0;
+    background-color: rgb(14, 12, 22);
+    padding:0 200px;
+    color:white;
+    transition: all 1s;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    
+}
+.active{
+  background-color: white;
+  color: black;
+    
+}
+.specik{
+    width:100%;
+    margin-top: 30px;
+}
+
+.protect-from{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding:20px 60px;
+    
+}
+.cont1{
+    
+    height: 500px;
+    width:28%;
+    background-image: linear-gradient(to right,rgb(54, 81, 107), rgb(70, 123, 148),rgb(78, 164, 185));
+   padding-left: 20px;
+   transition: width 0.5s;
+   display: flex;
+   overflow: hidden;
+   color: white;
+   border-radius: 10px;
+    
+
+
+}
+.cont2{
+    
+    height: 500px;
+    background-image: linear-gradient(to right,rgb(48, 90, 55),rgb(54, 105, 63), rgb(69, 133, 80));
+    
+    width: 28%;
+    color: white;
+    margin-left:auto;
+    transition: width 0.5s;
+  display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+    
+    
+   
+}
+
+.cont1>p{margin:0;
+font-size:30px;
+padding-top:170px;
+padding-left: 90px;
+}
+.cont2>p{margin:0;
+    font-size:30px;
+    padding-top:220px;
+    padding-left: 90px;
+    }
+footer{
+    width:100%;
+    background-color:#101010;
+    margin:0;
+   
+    display:flex;
+    padding:0;
+    justify-content: space-between;
+    }
+    .g{font-size:20px; 
+        color:white; 
+        margin: 0px 100px;
+         margin-top:20px;
+        }
+
+    .logo1{padding-top:35px; 
+        padding-left:20px}
+.cont1:hover, .cont2:hover
+{
+    width:90%;
+}
+.lol{
+    padding-left: 200px;
+}
+.block4{ 
+    margin: 0;
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(76, 180, 102));
+
+min-width:100%;
+
+
+
+
+}

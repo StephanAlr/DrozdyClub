@@ -1,0 +1,141 @@
+body {
+    margin:0; 
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-attachment: fixed;
+    font-size: 1em;
+    background-color: white;
+    animation: show 1s;
+    
+}
+
+@keyframes show {
+
+    from {opacity: 0;} to {opacity: 1;}
+    }
+
+header{
+
+    padding:10px;
+    background-color: rgb(0, 0, 0,0.9);
+    
+    margin-bottom: 30px;
+    
+    
+    }
+    span{color:rgb(2, 131, 2); font-size: 20px;}
+    .logo{padding-top:10px;}
+  
+    nav{
+        display: flex;
+        justify-content: space-around;
+    }
+    .page
+    {
+        color: white;
+        display: inline-block;
+        padding-right: 20px;
+        font-size:1.5rem;
+    }
+    .page:hover{
+        color:seagreen;
+      
+        transition: all 0.1s;
+        
+    }
+    .contact{
+        border:2px solid green;
+        border-radius: 5px;
+       background-color: transparent;
+       color:white;
+       padding-left:20px;
+    }
+    .contact:hover{color:white;border-color: white;}
+    
+    .pod{
+        margin:0; 
+        background-color:  black; 
+        display:flex;
+        width: 30%; 
+        margin-left: 35%; 
+       margin-top:-30px;
+         padding:5px; 
+         animation:show 0.5s;
+         position: absolute;
+         transition: opacity 0.5s;
+        }
+    .pod li{color:whitesmoke; margin-bottom: 10px;}
+    .pod a {text-decoration: none;}
+    .pod a:hover {text-decoration: underline;}
+    .pod  ul{list-style-type: none;}  
+    .hidden{display:none;}
+.container{
+    margin: 30px 0;
+    margin-bottom: 60px;
+}
+.intro {
+    background-color: white;
+    width:50%;
+}
+.first h1{
+    margin-left: 150px;
+}
+.first{
+    padding: 150px 0;
+    
+    background-image: url("img/progik2.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 50px;
+  
+    
+}
+.first ul{
+    list-style:square ;
+    margin-left: 120px;
+}
+span{
+    color:black;
+}
+.vak{
+    padding: 20px 30px;
+    width: 40%;
+    box-shadow: 0 8px 20px 0 gray;
+    margin: 30px 50px;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+.vak h3{
+    color:green;
+    
+}
+.vak:hover{
+    transform: scale(1.1);
+   
+}
+.vacks a{
+text-decoration: none;
+
+}
+li{color:green;
+margin-bottom: 10px;
+}
+
+    footer{
+        width:100%;
+        background-color:#101010;
+        margin:0;
+       
+        display:flex;
+        padding:0;
+        justify-content: space-between;
+        }
+        .g{font-size:20px; 
+            color:white; 
+            margin: 0px 100px;
+             margin-top:20px;
+            }
+    
+        .logo1{padding-top:35px; 
+            padding-left:20px}

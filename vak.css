@@ -1,0 +1,273 @@
+body {
+    margin:0; 
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-attachment: fixed;
+    font-size: 1em;
+    background-color: white;
+    animation: show 1s;
+   background-color: rgb(30, 68, 68);
+   background-image: linear-gradient(rgb(51, 90, 102),rgb(0, 0, 0));
+
+}
+.b2{
+    background-image: linear-gradient(rgb(27, 167, 85),rgb(0, 0, 0));  
+}
+.b3{
+    background-image:  linear-gradient(rgb(51, 90, 102),rgb(0, 0, 0));;
+}
+@keyframes show {
+
+    from {opacity: 0;} to {opacity: 1;}
+    }
+select{
+    padding: 10px;
+    color:white;
+    background-color: rgb(67, 117, 67);
+    width:60%;
+}
+header{
+
+    padding:10px;
+    background-color: rgb(0, 0, 0,0.6);
+    
+    margin-bottom: 30px;
+    
+    
+    }
+   textarea{
+       width: 60%;
+      
+   }
+    .logo{padding-top:10px;}
+  
+    nav{
+        display: flex;
+        justify-content: space-around;
+    }
+    .page
+    {
+        color: white;
+        display: inline-block;
+        padding-right: 20px;
+        font-size:1.5rem;
+    }
+    .page:hover{
+        color:seagreen;
+        
+        transition: all 0.1s;
+        
+    }
+    .contact{
+        border:2px solid green;
+        border-radius: 5px;
+       background-color: transparent;
+       color:white;
+       padding-left:20px;
+    }
+    .contact:hover{color:white;border-color: white;}
+    
+    .pod{
+        margin:0; 
+        background-color:  black; 
+        display:flex;
+        width: 30%; 
+        margin-left: 35%; 
+       margin-top:-30px;
+         padding:5px; 
+         animation:show 0.5s;
+         position: absolute;
+         transition: opacity 0.5s;
+        }
+    .pod li{color:whitesmoke; margin-bottom: 10px;}
+    .pod a {text-decoration: none;}
+    .pod a:hover {text-decoration: underline;}
+    .pod  ul{list-style-type: none;}  
+    .hidden{display:none;}
+.container{
+    margin: 30px 0;
+    margin-bottom: 100px;
+    padding: 0px 30px;
+}
+
+.intro{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+   
+}
+
+.intro h1{
+    color:rgb(0, 0, 0);
+    font-size: 40px;
+    
+}
+.intro p{
+    font-size: 20px;
+}
+.dop{
+    color:rgb(91, 177, 91);
+}
+.main{
+    
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+}
+@keyframes viezd{
+    from{padding-left: 0;}
+    to{
+        padding-left: 10%;
+    }
+}
+.opis{
+    width: 50%;
+    padding-left: 10%;
+    padding-bottom: 20px;
+    animation: viezd 1s;
+    
+    
+}
+.opis p{
+    margin-bottom: 40px;
+}
+.vakansion{
+    width: 50%;
+    text-align: center;
+    color:black;
+    background-color:white;
+    border-radius: 15px;
+}
+.opis li{
+    
+    margin-bottom: 20px;
+}
+.opis li::before{
+    content:"- ";
+    color:green;
+}
+
+.opis ul{
+    
+    padding-left:10px;
+    margin-bottom: 40px;
+    list-style-type:  none;
+  
+}
+.deviz{
+    width: 500px;
+    padding: 30px 30px;
+    background-color: #f1f1f1;
+    background-image: url("img/fonchik3.jpg");
+    color: black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.smaldes{
+    font-size: 13px;
+    align-self: flex-end;
+    
+}
+.formblock{
+    
+  
+    color:rgb(0, 0, 0);
+    width: 30%;
+    margin-left:auto;
+    margin-right: 100px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    padding-top: 200px;
+    background-image: url('img/razrab.png');
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+
+}
+.formblock p{
+    text-align: center;
+}
+
+
+.otkl{
+    padding: 15px;
+    border: 0;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+   color: rgb(64, 212, 101);
+    margin-left: 35%;
+  transition: 0.5s;
+    
+    
+}
+.otkl:hover{
+    background-color: rgb(64, 212, 101);
+    color:white;
+}
+
+form{
+    margin-top:50px ;
+  background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: trans 0.7s;
+    border-radius: 20px;
+    color:rgb(37, 37, 37);
+   box-shadow: 0 0 150px -70px;
+   
+    
+   
+   
+}
+@keyframes trans{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+input{
+    width: 60%;
+    padding: 10px;
+    border:0;
+    border-bottom: 3px solid green;
+    background-color: transparent;
+}
+.but1{
+    border: 0;
+    padding: 15px;
+    border: 0;
+    background-color: rgb(65, 65, 65);
+    border-radius: 10px;
+   color: rgb(64, 212, 101);
+   
+}
+.but1:hover{
+    background-color: rgb(64, 212, 101);
+    color:white;
+}
+
+footer{
+    width:100%;
+    background-color:#101010;
+    margin:0;
+   
+    display:flex;
+    padding:0;
+    justify-content: space-between;
+    }
+    .g{font-size:20px; 
+        color:white; 
+        margin: 0px 100px;
+         margin-top:20px;
+        }
+
+    .logo1{padding-top:35px; 
+        padding-left:20px}
